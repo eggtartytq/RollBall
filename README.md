@@ -1,6 +1,7 @@
 # RollBall
 
 9/15/2020 Charles Yan
+
 Finished:
 1. Add main menu
 2. I use SceneManager for the Scene change, there is a script called SceneLoad, 
