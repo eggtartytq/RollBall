@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public int totalPickups = 8;
     public TextMeshProUGUI countText;
     public TextMeshProUGUI winTextObject;
+    
 
     private Rigidbody rb;
     private int count;
@@ -30,6 +31,7 @@ public class PlayerController : MonoBehaviour
         winTextObject.SetText("");
 
         gameOver = false;
+
 
         // Get reference to timer
         timer = GameObject.FindObjectOfType<Timer>();
@@ -73,6 +75,7 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
             count++;
             SetCountText();
+
         }
     }
 
