@@ -9,6 +9,15 @@ Finished:
     2) In the Botton -> add onClick -> pull the SceneLoader tto onClick (under the runtime) 
     3) Select  SceneLoader ---> LoadScene(string)
     4) type the scene name
-ToDO:
+ToDo:
 1. Score board
 2. I am think about add a frame that you can choose back to menu or next round or try again after you finish a game.
+
+
+9/18/2020 Charles Yan
+Finished:
+1. The ScoreBoard outline
+
+ToDo:
+1: pass the Score to the ScoreBoard
+2: allow Player type their name to the ScoreBoard
